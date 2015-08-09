@@ -1,0 +1,14 @@
+<ion-view view-title="Chats">
+  <ion-content>
+    <ion-list>
+      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="chat in chats" type="item-text-wrap" href="#/tab/chats/{{chat.Nome}}">
+        <img ng-src="http://esffranco.eu/img/alunos/{{chat.Foto}}">
+        <h2>{{chat.Nome}}</h2>
+        
+        <i class="icon ion-chevron-right icon-accessory"></i>
+
+       
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
