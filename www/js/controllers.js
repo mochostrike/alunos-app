@@ -16,7 +16,7 @@ angular.module('starter.controllers', [])
   var url = 'http://esffranco.eu/api/users'; 
     $http.get(url).success(function(data) {
     $scope.chats = data;
-    console.log(data);
+    console.log(data + " asd");
   }).error(function(error) {
     console.log(error);
      $scope.chats = [{Nome:"Vitor",Foto:"vitor.jpg"}];
