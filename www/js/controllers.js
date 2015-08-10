@@ -13,7 +13,7 @@ angular.module('starter.controllers', [])
 
   $scope.chats = [];
 
-  var url = 'https://esffranco.eu/api/users'; 
+  var url = 'http://esffranco.eu/api/users'; 
     $http.get(url).success(function(data) {
     $scope.chats = data;
     console.log(data);
